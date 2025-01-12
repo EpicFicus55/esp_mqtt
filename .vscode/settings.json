@@ -8,6 +8,7 @@
     "idf.toolsPathWin": "C:\\Users\\iusti\\.espressif",
     "idf.flashType": "UART",
     "files.associations": {
-        "temp_sensor.h": "c"
+        "temp_sensor.h": "c",
+        "mpu6050.h": "c"
     }
 }
