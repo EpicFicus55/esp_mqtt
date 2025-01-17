@@ -1,5 +1,4 @@
 #pragma once
-
 #include "esp_netif.h"
 #include "protocol_examples_common.h"
 

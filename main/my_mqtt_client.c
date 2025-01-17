@@ -91,7 +91,7 @@ void mqtt_app_start(void)
         .broker.address.uri = CONFIG_BROKER_URL,
         .credentials.username = "esp32_sensor",
         .credentials.authentication.password = "Esp32Password"
-    };
+        };
 
     mqtt_client = esp_mqtt_client_init(&mqtt_cfg);
     

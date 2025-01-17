@@ -11,6 +11,6 @@
 
 void mpu6050_init(void);
 
-void mpu6050_read(void *pvParameters);
+void mpu6050_read(mpu6050_acce_value_t* acce, mpu6050_gyro_value_t* gyro, mpu6050_temp_value_t* temp);
 
-void mpu6050_monitor_task(void* pvParameters);
+void mpu6050_monitor_task(void* params);
